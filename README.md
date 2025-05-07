@@ -52,12 +52,12 @@ These metrics helped assess the balance between correctly identifying sentiments
 
 # Key Results
 
-# Model==Accuracy==Comments
-Logistic Regression==0.82==Strong balance of precision and recall across sentiment classes
-LinearSVC==0.82==Robust performance, similar to Logistic Regression
-XGBoost==0.77==High precision, but lower recall on negative sentiment
-MultinomialNB==0.80==Effective on negative sentiment, slightly weaker on positive class
-Voting Classifier==0.82==Best overall balance by combining strengths of individual models
+# Model-Accuracy-Comments
+1. Logistic Regression==0.82==Strong balance of precision and recall across sentiment classes
+2. LinearSVC==0.82==Robust performance, similar to Logistic Regression
+3. XGBoost==0.77==High precision, but lower recall on negative sentiment
+4. MultinomialNB==0.80==Effective on negative sentiment, slightly weaker on positive class
+5. Voting Classifier==0.82==Best overall balance by combining strengths of individual models
 
 The Voting Classifier, Logistic Regression, and LinearSVC emerged as top performers, showing consistent and reliable sentiment classification on tweets about Supernatural.
 
